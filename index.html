@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Div for entire weather app UI-->
+    <div class="container">
+        <!--Div for app title-->
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <!-- Div for app notification-->
+        <div class="notification"> </div>
+        <!--Div for weather information (icon and temp)-->
+        <div class="weather-container">
+            <!--Div for weather icon-->
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <!--Div for temperature-->
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <!--Div for weather description-->
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <!--Div for user location-->
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
